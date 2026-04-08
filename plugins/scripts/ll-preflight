@@ -1,0 +1,10 @@
+#!/bin/bash
+# Preflight check for logic-lens binary availability
+if command -v logic-lens &> /dev/null; then
+    echo "logic-lens $(logic-lens --version 2>&1 | head -1)"
+    exit 0
+else
+    echo "logic-lens binary not found"
+    echo "Install with: cargo install --path crates/logic-lens-cli"
+    exit 1
+fi

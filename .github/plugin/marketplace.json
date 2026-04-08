@@ -1,0 +1,9 @@
+{
+  "name": "logic-lens",
+  "version": "0.1.0",
+  "description": "Semantic auditor for AI-generated code — detects logic changes, placeholder code, hallucinated imports, and stub implementations.",
+  "repository": "https://github.com/knightmax/logic-lens",
+  "tags": ["code-review", "ai-audit", "semantic-diff", "linting"],
+  "skills": ["logic-lens-audit"],
+  "mcpServers": ["logic-lens"]
+}

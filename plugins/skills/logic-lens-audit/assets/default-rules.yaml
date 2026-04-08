@@ -1,0 +1,12 @@
+## Default Rules
+
+# Detect console.log in production code
+---
+name: no-console-log
+description: Disallow console.log statements in production code
+language: [typescript, javascript]
+severity: warning
+message: "console.log should be removed before production"
+pattern:
+  type: contains
+  value: "console.log"

@@ -1,0 +1,29 @@
+# Rust / Cargo
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Test artifacts
+*.profraw
+*.profdata
+
+# Build
+*.d
+*.o
+*.so
+*.dylib
+
+# OpenSpec
+openspec.txt
+openspec/

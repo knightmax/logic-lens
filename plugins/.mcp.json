@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "logic-lens": {
+      "command": "logic-lens-mcp",
+      "args": [],
+      "env": {}
+    }
+  }
+}

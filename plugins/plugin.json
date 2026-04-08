@@ -1,0 +1,6 @@
+{
+  "name": "logic-lens",
+  "description": "Semantic auditor for AI-generated code — detects logic changes, placeholder code, hallucinated imports, and stub implementations by comparing old vs new file versions using tree-sitter AST diffing.",
+  "version": "0.1.0",
+  "author": "knightmax"
+}
